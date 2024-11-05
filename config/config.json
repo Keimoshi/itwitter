@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "itwitter",
+    "password": "mimashi7427",
+    "database": "ac_twitter_workspace",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "itwitter",
+    "password": "mimashi7427",
+    "database": "ac_twitter_workspace_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "operatorsAliases": false
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "protocol": "postgres",
+    "operatorsAliases": false,
+    "dialectOptions": {
+      "ssl": true
+    }
+  }
+}
